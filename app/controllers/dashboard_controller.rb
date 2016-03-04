@@ -1,6 +1,9 @@
 class DashboardController < ApplicationController
+  before_filter :authenticate_user!, except: [:index]
+  
   def index
     @problems = Problem.all
-    render json: @problems
+    respond_to :html, :json
   end
+
 end

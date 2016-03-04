@@ -1,11 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  geocode: MyString
-  user_id: 
+  user_id: 0 
   done: false
+  type: 'pothole'
+  lat: 0
+  lng: 0 
 
 two:
-  geocode: MyString
-  user_id: 
+  user_id: 0
   done: false
+  type: 'livewire'
+  lat: -10
+  lng: 10
