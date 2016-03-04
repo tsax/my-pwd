@@ -6,4 +6,10 @@ class DashboardController < ApplicationController
     respond_to :html, :json
   end
 
+  def add
+  end
+
+  def mark_done
+  end
+  
 end
