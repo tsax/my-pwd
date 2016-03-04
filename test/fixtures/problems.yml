@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  geocode: MyString
+  user_id: 
+  done: false
+
+two:
+  geocode: MyString
+  user_id: 
+  done: false
